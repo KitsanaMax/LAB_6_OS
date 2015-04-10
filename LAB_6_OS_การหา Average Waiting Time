@@ -32,6 +32,7 @@ public class AverageWaitingTimePrj {
 
 		// Average Waiting Time แบบ SJF
 		double TimeProcess1 = 0, TotalWait1 = 0;
+		//ฟังก์ชัน sort เพื่อเรียงลำดับข้อมูล
 		Arrays.sort(J);
 		for(int k=1; k<J.length; k++) {
 			TimeProcess1 += J[k];
